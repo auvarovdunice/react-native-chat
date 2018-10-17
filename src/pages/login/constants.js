@@ -1,0 +1,20 @@
+export default {
+
+  ///REDUX ACTIONS
+  USER_LOGIN: 'USER_LOGIN',
+  USER_LOGIN_SUCCESS: 'USER_LOGIN_SUCCESS',
+  USER_LOGIN_FAIL: 'USER_LOGIN_FAIL',
+  USER_LOGOUT: 'USER_LOGOUT',
+  USER_LOGOUT_FAIL: 'USER_LOGOUT_FAIL',
+
+  //SOCKET.IO
+  ////Received by server
+  CONNECT: 'CONNECT',
+  DISCONNECT: 'disconnect',
+  LOGOUT: 'LOGOUT',
+
+  
+  ////Received by client
+  AUTH_ERROR: 'AUTH_ERROR',
+  LOGGED_IN: 'LOGGED_IN',
+};
