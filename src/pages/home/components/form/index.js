@@ -55,7 +55,6 @@ export class HomeForm extends PureComponent {
             </Text>
         </View>);
 
-
         if (activeUsers) {
             usersTemplate = activeUsers.map((userItem, index) => {
                 return (<ListItem
